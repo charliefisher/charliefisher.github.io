@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Charlie Fisher's Professional Website">
+    <meta name="author" content="Charlie Fisher">
+
+    <title>Charlie Fisher</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="images/icons/icon.ico" rel="icon">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation    -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <div class="navbar-brand js-scroll-trigger">
+          <a class="name-nav text-white js-scroll-trigger" href="#page-top">Charlie Fisher</a>
+          <ul class="contact-link">
+            <li><a href="https://www.linkedin.com/in/charlierfisher/" class="contact-link" target="_blank">
+                <img src="images/icons/linkedin.png" alt="LinkedIn" class="img-contact-link">
+            </a></li>
+            <li><a href="mailto: charlie.fisher@edu.uwaterloo.ca" class="contact-link">
+                <img src="images/icons/email.png" alt="Email" class="img-contact-link">
+            </a></li>
+            <li><a href="https://github.com/charliefisher" class="contact-link" target="_blank">
+                <img src="images/icons/github.png" alt="GitHub" class="img-contact-link">
+            </a></li>
+        </ul>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#work">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Engineering Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <img src="images/cover.jpg" alt="Cover" class="img-responsive">
+  <header class="container text-white">
+    <div class="text-center">
+      <h1>Charlie Fisher</h1>
+      <p class="lead">University of Waterloo 2A Mechatronics Engineering</p>
+    </div>
+  </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>About Me</h2>
+            <div class="span4">
+            <img src="images/charlie.jpg" alt="Me" class="img-circle img-me" height=250 width=300>
+            <p class="lead">I am a driven and dependable engineering student interested in software. I enjoy this type of work as it challenges me to find an elegant and efficient solution and allows me to quickly see the outcome of my work. I am a hard worker and quick learner and am eager to apply my skills to engineering problems.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="bg-light work">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+          <h2>Work Experience</h2>
+            <div class="span4">
+              <hr>
+              <section class="subsection">
+                <img src="images/company-logos/redetec.png" alt="ReDeTec" class="img-responsive img-company-logo">
+                <div class="content-heading"><h3 class="lead"><b>Software Engineering Intern</b></h3></div>
+                <h4 class="lead"><i><a href="https://redetec.com/" target="_blank" class="company-link">ReDeTec</a></i></h4>
+                <p>ReDeTec is a startup that makes an automatic 3D printer filament recycling machine, the ProtoCycler. I was responsible for adding web connectivity to ProtoCyclers to automatically track usage statistics and update firmware. In order to track usage statistics, I developed a SQL database using Microsoft Azure to organize usage statistics uploaded by individual ProtoCyclers. This database was designed with scalability in mind so that as more units are sold, the database can grow effortlessly. I also configured Google Cloud Storage to host the most recent firmware version from which ProtoCyclers can pull. I accounted for future improvements and added the framework to allow ProtoCycler settings to be updated without updating the firmware version. I was also responsible for developing a feature to detect sudden changes in filament diameter and then gather a video recording using a digital microscope. Finally, I was responsible for fixing bugs in existing C++ and Java codebase related to button debouncing, file I/O, display scaling, and ProtoCycler user interface.
+                </p>
+              </section>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>Engineering Projects</h2>
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong>Pointillism Art Plotter</strong> MTE 100</h3>
+              <div id="pointillism-plotter" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#pointillism-plotter" data-slide-to="0" class="active"></li>
+                  <li data-target="#pointillism-plotter" data-slide-to="1"></li>
+                  <li data-target="#pointillism-plotter" data-slide-to="2"></li>
+                  <li data-target="#pointillism-plotter" data-slide-to="3"></li>
+                  <li data-target="#pointillism-plotter" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <video autoplay loop muted class="h-100 center">
+                      <source src="images/pointillism-plotter/plot-timelapse.mov" type="video/mp4">
+                    </video>
+<!---               EMBEDED YOUTUBE VIDEO
+                    <div class="video-container">
+                      <iframe width="853" height="480" src="https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0&controls=0&autoplay=0&loop=1" frameborder="0" controls="0" allowfullscreen></iframe>
+                    </div>
+--->
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/pointillism-plotter/plot-text.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/pointillism-plotter/plot-grayscale.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/pointillism-plotter/plot-black-and-white.jpg" alt="Fourth slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/pointillism-plotter/plotter.jpg" alt="Fifth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#pointillism-plotter" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#pointillism-plotter" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p>In MTE 100, our culminating project was a robot that could automatically plot pointillism art in either black and white or grayscale given any input image. I contributed to both the mechanical design and the software algorithms used to plot an image and improved my skills debugging electromechanical systems. In order to reducing the print time of an image, optimizations were added to skip empty lines in the image and speed up over blank spaces. This project gave me an opportunity to improve my C++ and Git skills and resulted in a robot that could produce accurate images.
+              </p>
+             </span>
+             </section>
+
+             <hr>
+             <section class="subsection">
+              <h3 class="lead"><strong>Independant Courses</strong></h3>
+              <div id="independant-courses" class="carousel slide project-carousel" data-ride="carousel">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block h-100 center" src="images/independant-courses/machine-learning.jpg" alt="First slide">
+                  </div>
+              </div>
+              <p> Since I initially had more experience with the mechanical aspect of Mechatronics, I took the initiative to learn some software content on my own. I took Machine Learning taught by Andrew Ng through Coursera and learned the fundamentals of linear regression, logistic regression, neural networks, support vector machines, K-means clustering, anomaly detection, and recommender systems. This course has been an invaluable step in learning more software and enabled me to write in Octave.
+              </p>
+            </section>
+
+
+             <hr>
+             <section class="subsection">
+              <h3 class="lead"><strong>Interactive Fountain</strong></h3>
+              <div id="interactive-fountain" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#interactive-fountain" data-slide-to="0" class="active"></li>
+                  <li data-target="#interactive-fountain" data-slide-to="1"></li>
+                  <li data-target="#interactive-fountain" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block h-100 center" src="images/interactive-fountain/full-assembly.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/interactive-fountain/full-assembly-transparent.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/interactive-fountain/fountain-empty.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#interactive-fountain" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#interactive-fountain" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p> In Grade 12 Technological Design, our final project was to build or modify an existing toy such that it could be used by children with disabilities. A partner and I designed and built an interactive water fountain that allowed the children to control the water flow and LEDs inside to fountain. I used object oriented program design to write classes for buttons, LEDs, and the water jet using the Arduino IDE. This gave me experience programming and debugging embedded systems as well improved my SolidWorks and CNC machining skills.
+              </p>
+            </section>
+
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong>Raspberry Pi Time Capsule</strong></h3>
+              <div id="raspberry-pi-time-capsule" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#raspberry-pi-time-capsule" data-slide-to="0" class="active"></li>
+                  <li data-target="#raspberry-pi-time-capsule" data-slide-to="1"></li>
+                  <li data-target="#raspberry-pi-time-capsule" data-slide-to="2"></li>
+                  <li data-target="#raspberry-pi-time-capsule" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block w-100 center" src="images/raspberry-pi-time-capsule/time-capsule.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/raspberry-pi-time-capsule/terminal.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/raspberry-pi-time-capsule/pi.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <video autoplay loop muted class="w-100 center">
+                      <source src="images/raspberry-pi-time-capsule/connecting.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#raspberry-pi-time-capsule" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#raspberry-pi-time-capsule" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p>Interested in electronics and looking to gain some experience working with micro-computers, I decided to build a Time Machine backup drive from a Raspberry Pi and an external hard drive. The Time Machine backup uses Netatalk to handle Apple Filing Protocol allowing for automatic backups of all Macintosh computers on the network.
+              </p>
+            </section>
+
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong>3D Printed Hubsan H107L</strong></h3>
+              <div id="3D-printed-hubsan" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#3D-printed-hubsan" data-slide-to="0" class="active"></li>
+                  <li data-target="#3D-printed-hubsan" data-slide-to="1"></li>
+                  <li data-target="#3D-printed-hubsan" data-slide-to="2"></li>
+                  <li data-target="#3D-printed-hubsan" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block w-100 center" src="images/3D-printed-hubsan/stationary.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/3D-printed-hubsan/flying.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/3D-printed-hubsan/render.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/3D-printed-hubsan/stationary-blade-spinning.jpg" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#3D-printed-hubsan" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#3D-printed-hubsan" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p> Looking to gain some experience with electronics and apply my design knowledge, I decided to build a quadcopter from scratch. I designed the frame using SolidWorks then printed it using my Prusa i2 RepRap 3D Printer. I then assembled the components and wired the quadcopter resulting in quick and responsive flight.
+              </p>
+            </section>
+
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong>4x4x4 LED Cube</strong></h3>
+              <div id="led-cube" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#led-cube" data-slide-to="0" class="active"></li>
+                  <li data-target="#led-cube" data-slide-to="1"></li>
+                  <li data-target="#led-cube" data-slide-to="2"></li>
+                  <li data-target="#led-cube" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <video autoplay loop muted class="h-100 center">
+                      <source src="images/led-cube/cube.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/led-cube/cube1.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/led-cube/cube2.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/led-cube/cube3.jpg" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#led-cube" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#led-cube" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p> To gain some experience working with embedded system, I built an LED cube that can be controlled by either an Arduino Uno or a Raspberry Pi. The twenty pins required to control the 4x4x4 cube are concentrated to a single connector which can be driven directly from either the Arduino or Pi or through an intermediate shift register circuit. This project allowed me to better understand digital circuits and get experience working with electronics.
+              </p>
+            </section>
+
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong>Prusa i2 RepRap 3D Printer</strong></h3>
+              <div id="3D-printer" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#3D-printer" data-slide-to="0" class="active"></li>
+                  <li data-target="#3D-printer" data-slide-to="1"></li>
+                  <li data-target="#3D-printer" data-slide-to="2"></li>
+                  <li data-target="#3D-printer" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block w-100 center" src="images/3D-printer/full-printer.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/3D-printer/main-axes.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/3D-printer/extruder.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/3D-printer/platter.jpg" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#3D-printer" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#3D-printer" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p> Interested in 3D printing, I purchased a kit for a RepRap Prusa Mendel i2 and then assembled, configured, and debugged the machine. After I had it working, I designed and printed enhancements such as a power supply mount, filament mount, filament guide, power switch mount, and power cord receptacle. I applied my design skills and gained general hardware debugging skills and hobby electronics experience.
+              </p>
+            </section>
+
+            <hr>
+            <section class="subsection">
+              <h3 class="lead"><strong><a href="https://www.youtube.com/watch?v=pBt4QQi2BjM" target="_blank">FIRST Robotics Team 610</a></strong></h3>
+              <div id="robotics" class="carousel slide project-carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#robotics" data-slide-to="0" class="active"></li>
+                  <li data-target="#robotics" data-slide-to="1"></li>
+                  <li data-target="#robotics" data-slide-to="2"></li>
+                  <li data-target="#robotics" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item img-project-max active">
+                    <img class="d-block w-100 center" src="images/robotics/2018-1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/robotics/2018-2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block w-100 center" src="images/robotics/2017-1.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item img-project-max">
+                    <img class="d-block h-100 center" src="images/robotics/2017-2.jpg" alt="Fourth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#robotics" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#robotics" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <p> I participated on Team 610 for four years, my final year as Co-Lead of the Design and Manufacturing Division, the largest division on the team. This was my first exposure to engineering and I loved it. It fueled my interest in engineering and led to my future education. I contributed to the robot design in SolidWorks and in my last two years on the team I was selected as the lead designer of a subsystem. Additionally, in my final year, I was responsible for coordinating and scheduling the design and machining of the entire robot. Through robotics, I learned how to manufacture parts in our machine shop using the manual mill, lathe, and CNC router.
+              </p>
+            </section>
+
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Charlie Fisher 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+    <script src="js/carousel.js"></script>
+
+  </body>
+
+</html>

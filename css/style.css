@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: 0 0 0 0;
+  vertical-align: middle;
+  position: absolute;
+  top: calc(100vw * 0.47605042 / 2 + 1.8125rem);   /* 0.47605042 is the reciprical of the banner photo aspet ratio (142.80cm by 67.98cm)*/
+  left: 50%;
+  transform: translate(-50%, -50%); /* centers the block on the position we want */
+}
+
+@media (min-width: 992px) { }
+
+p {
+  font-size: 0.875rem;
+}
+
+section {
+  padding: 75px 0;
+}
+
+.company-link, .company-link:hover {
+  color: black;
+/*  text-decoration: none;  removes underlining company name when hovered*/
+}
+
+.work p {
+  margin-left: 4.5rem;
+  clear: both;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-company-logo {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  float: left;
+}
+
+.img-me {
+  margin-left: 2.5%;
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  height: auto;
+  float: right;
+}
+
+.img-contact-link {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  border-radius: .125rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+.contact-link {
+  display: inline-block;
+  padding: 0 0 0 0;
+  margin: 0 0.125rem 0 0.125rem;
+  border: 0 0 0 0;
+}
+
+.contact-link li{
+  display: inline;
+}
+
+.contact-link li:last-child{
+  margin-right: 0;
+}
+
+.name-nav {
+  margin-right: 7.5%;
+}
+
+.project-carousel {
+  width: 50%;
+  height: calc(100vw *  12 / 16 * 0.5 * 2 / 3);
+  margin-left: 2.5%;
+  padding: 0 0 20px 0;
+  float:right;
+  background: transparent;
+}
+
+.img-project-max {
+  width: 100%;
+  height: calc(100vw * 12 / 16 * 0.5 * 2 / 3);
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subsection {
+  padding: 0 0 1rem 0;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ol.carousel-indicators li {
+   background: #bbb;
+}
+
+ol.carousel-indicators li.active {
+   background: #555;
+}
+
+/*
+https://stackoverflow.com/questions/39937072/styling-bootstrap-carousel-indicators
+good source for modifying indicators
+*/
